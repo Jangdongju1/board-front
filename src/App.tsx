@@ -21,7 +21,7 @@ import {
 } from "./constant";
 import {useCookies} from "react-cookie";
 import {getSignInUserRequest} from "./apis";
-import {getSignInUserResponseDto} from "./apis/response/user";
+import {GetSignInUserResponseDto} from "./apis/response/user";
 import {ResponseDto} from "./apis/response";
 import {ResponseCode} from "./types/enum";
 import {User} from "./types/interface";
@@ -49,14 +49,14 @@ function App() {
     const [cookies, setCookies] = useCookies();
 
     // function : 로그인한 유저에 대한 응담 처리함수.
-    const getSignInUserResponse = (responseBody: getSignInUserResponseDto | ResponseDto | null) => {
+    const getSignInUserResponse = (responseBody: GetSignInUserResponseDto | ResponseDto | null) => {
         if (!responseBody) return;
         const {code} = responseBody;
         if (code === ResponseCode.AUTHENTICATION_FAILED || code === ResponseCode.NOT_EXIST_USER || code === ResponseCode.DATABASE_ERROR) {
             resetLoginUser();
             return;
         }
-        const loginUser: User = {...responseBody as getSignInUserResponseDto}
+        const loginUser: User = {...responseBody as GetSignInUserResponseDto}
         setLoginUser(loginUser);
     }
 

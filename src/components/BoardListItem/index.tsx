@@ -25,7 +25,7 @@ export default function BoardComponent({boardListItem}: Props){
     // event함수
     const onClickHandler = () =>{
         //클릭하면 백엔드에 요청을 보내야지....
-      // navigator(BOARD_PATH() + "/"+ BOARD_DETAIL_PATH(boardNum));
+       navigator(BOARD_PATH() + "/"+ BOARD_DETAIL_PATH(boardNum));
     }
     return(
         <div className="board-list-item" onClick={onClickHandler}>

@@ -1,25 +1,28 @@
-#user-top-wrapper{
+#user-top-wrapper {
     padding: 40px 0 45px;
     display: flex;
     justify-content: center;
 }
-.user-top-container{
+
+.user-top-container {
     width: 1200px;
     min-width: 1200px;
     display: flex;
     align-items: center;
     gap: 25px;
 }
-.user-top-my-profile-image-box{
+
+.user-top-my-profile-image-box {
     width: 120px;
     height: 120px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(217,217,217,1);
+    background-color: rgba(217, 217, 217, 1);
 }
-.user-top-my-profile-image{
+
+.user-top-my-profile-image {
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -28,7 +31,8 @@
     background-size: 100% 100%;
     cursor: pointer;
 }
-.user-top-profile-image-box{
+
+.user-top-profile-image-box {
     border-radius: 50%;
     width: 120px;
     height: 120px;
@@ -38,37 +42,122 @@
     background-position: 50% 50%;
     background-size: 100% 100%;
 }
-.user-top-info-box{
+
+.user-top-info-box {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.user-top-info-nickname-box{
+
+.user-top-info-nickname-box {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.user-top-my-info-nickname{
-    color: rgba(0,0,0,0.7);
+
+.user-top-my-info-nickname {
+    color: rgba(0, 0, 0, 0.7);
     font-size: 24px;
     font-weight: 500;
     line-height: 140%;
 }
-.user-top-info-nickname-input{
+
+.user-top-info-nickname-input {
     border: none;
     outline: none;
-    background:none;
+    background: none;
     padding: 0;
 
-    color: rgba(0,0,0,1);
+    color: rgba(0, 0, 0, 1);
     font-size: 24px;
     font-weight: 500;
     line-height: 140%;
 
 }
 
-.user-top-info-email{
-    color: rgba(0,0,0,0.4);
+.user-top-info-email {
+    color: rgba(0, 0, 0, 0.4);
     font-size: 16px;
     font-weight: 500;
+}
+
+#user-bottom-wrapper {
+    padding: 40px 0;
+    min-height: 880px;
+
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.user-bottom-container {
+    width: 1200px;
+    min-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.user-bottom-title-box{
+    color: rgba(0, 0, 0, 1);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.user-bottom-contents-box {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    gap: 24px;
+}
+
+.user-bottom-contents {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.user-bottom-contents-nothing {
+    width: 100%;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.user-bottom-side-card {
+    width: 100%;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.user-bottom-side-card:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.user-bottom-side-container {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.user-bottom-side-text {
+    color: rgba(0, 0, 0, 1);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+}
+.user-bottom-pagination-box{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
 }

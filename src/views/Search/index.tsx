@@ -24,7 +24,7 @@ export default function Search() {
     const [count, setCount] = useState<number>(0);
     // state : 관련 검색어 리스트 상태.
     const [relationList, setRelationList] = useState<string[]>([]);
-    // state : 페이지 네이션 상태.
+    // state : 페이지네이션 상태.
     const {
         currentPage,
         currentSection,
