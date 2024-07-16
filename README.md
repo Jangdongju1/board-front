@@ -19,7 +19,8 @@
 -------------------------
 ### Project Overview
 
-![ironman](https://github.com/user-attachments/assets/4cadfce3-786e-4462-bc74-de2ba35cac67)
+![프로젝트 구조도(간략)](https://github.com/user-attachments/assets/87970ba4-d052-4898-af8f-9e189ef63986)
+
 
 -프로젝트 전체 구조에 관한 그림 삽입-
 
