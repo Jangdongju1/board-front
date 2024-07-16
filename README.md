@@ -1,4 +1,4 @@
-# Bulletin Board BackEnd 
+# Bulletin Board FrontEnd 
 ##### 📺 개발환경
 * <img src="https://img.shields.io/badge/Language-%23121011?style=plastic"/>
      <div>
