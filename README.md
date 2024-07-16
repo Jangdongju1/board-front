@@ -18,5 +18,9 @@
 #### :bookmark_tabs: BackEnd Details > https://github.com/Jangdongju1/board-back/blob/main/README.md
 -------------------------
 ### Project Overview
+-프로젝트 전체 구조에 관한 그림 삽입-
 본 프로젝트는 간단한 게시판을 구현한 프로젝트입니다. 기본적인 CRUD에 관련된 RestAPI를 BackEnd에 구현하였고, Fornt 단에서 Axios라이브러리를 활용한 Http통신으로 서버와 데이터를 주고 받도록 하였습니다. API에 대한 명세는 상단의 BackEnd Detatils의 링크에서 확인 하실 수 있습니다. 
 
+### Learning Objectives
+- RestAPI에 대한 설계'를 깨우치는 것
+- 'API가 제공하는 데이터가 Front의 Component에 어떠한 방식으로 전달되고 화면에 출력되는가'를 아는 것
