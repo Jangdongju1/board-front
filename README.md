@@ -7,5 +7,5 @@
 
 * <img src="https://img.shields.io/badge/Library%20&%20Framwork-%23121011?style=plastic"/>
      <div>
-          <img src="https://img.shields.io/badge/React-61DAFB?style=float-square&logo=React&logoColor=white"/>
+          <img src="https://img.shields.io/badge/React-61DAFB?style=float-square&logo=React&logoColor=white"/>, <img src="https://img.shields.io/badge/Axios-5A29E4?style=float-square&logo=Axios&logoColor=white"/>
      </div>
