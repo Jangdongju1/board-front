@@ -17,5 +17,5 @@
 
 #### :bookmark_tabs: BackEnd Details > https://github.com/Jangdongju1/board-back/blob/main/README.md
 -------------------------
-#### 프로젝트 개요
+### 프로젝트 개요
 ㅇㅇㅇ
