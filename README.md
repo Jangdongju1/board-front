@@ -24,7 +24,7 @@
 
 본 프로젝트는 간단한 게시판을 구현한 프로젝트입니다. 기본적인 CRUD에 관련된 RestAPI를 BackEnd에 구현하였고, Fornt 단에서 Axios라이브러리를 활용한 HTTP통신으로 서버와 데이터를 주고 받도록 하였습니다. API에 대한 명세는 상단의 BackEnd Detatils의 링크에서 확인 하실 수 있습니다. 
 
-### Learning Objectives
+### Learning Objectives(학습목표)
 - 'RestAPI에 대한 설계'를 깨우치는 것
 - 'HTTP통신'에 대한 이해.
 - 'JS, TS'에 대한 이해.
@@ -35,3 +35,6 @@
 
 마지막으로 JS 및 TS에 대한 기초적인 이해를 가져가는 것이 세번재 목표였습니다. 원래의 희망 분야가 BackEnd였고 그에 따라 BackEnd개발자로써의 경력을 가지고 있습니다. 저는 'Front단의 로직을 몰라도 된다' 라는 생각을 제일 경계합니다. 향후 Front담당자와의 원활한 협업을 위해서라도 해당 분야에 사용되는 로직이 어떻게 구성되어있고, 어떻게 돌아가는지는 조금이라도 알아야 한다고 생각합니다. 따라서 JS, TS의 기본적이 문법체계에 대해서 학습하였습니다.
 
+### Supplimentary Matters(보완사항)
+- [Backend] 토큰 만료에 따른 Refresh Token 발급 로직.
+- [Backend] 예외에 대해서 전역 예외처리 로직.
