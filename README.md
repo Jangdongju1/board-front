@@ -42,12 +42,15 @@
 -------------------------------------------------
 ### UI사진
 [로그인화면]
+
 ![login](https://github.com/user-attachments/assets/bc9147fa-e2bc-42b5-8f37-4295d7fcac6a)
 
 [메인화면]
+
 ![main](https://github.com/user-attachments/assets/e6e7f841-81bd-41dd-b825-bd6b82f630dc)
 
 [게시글 확인]
+
 ![post](https://github.com/user-attachments/assets/dfc6eee4-1114-402c-8fbe-d01913f14d08)
 
 
