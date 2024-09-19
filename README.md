@@ -47,11 +47,16 @@
 
 [메인화면]
 
-![main](https://github.com/user-attachments/assets/e6e7f841-81bd-41dd-b825-bd6b82f630dc)
+
+![메인](https://github.com/user-attachments/assets/96da5460-3920-4f0b-b11f-fee024629fab)
+
 
 [게시글 확인]
 
-![post](https://github.com/user-attachments/assets/dfc6eee4-1114-402c-8fbe-d01913f14d08)
+
+![게시글](https://github.com/user-attachments/assets/70664043-1eec-4596-91b9-0f8740f1dcc5)
+
+
 
 
 
